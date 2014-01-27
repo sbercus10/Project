@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @idea.title %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @idea.description %>
+</p>
+
+<p>
+  <b>Start date:</b>
+  <%= @idea.start_date %>
+</p>
+
+<p>
+  <b>End date:</b>
+  <%= @idea.end_date %>
+</p>
+
+<p>
+  <b>On time:</b>
+  <%= @idea.on_time %>
+</p>
+
+<p>
+  <b>Assigned to:</b>
+  <%= @idea.assigned_to %>
+</p>
+
+
+<%= link_to 'Edit', edit_idea_path(@idea) %> |
+<%= link_to 'Back', ideas_path %>

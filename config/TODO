@@ -1,0 +1,34 @@
+TODO
+Project Manager: 
+    - Overview 
+        - Summary
+        - Scope
+        - Resources
+        - Progress Bar
+    - Team Members
+        - Contact
+        - Title
+    - Task List / Todo List
+        - Timeline or Complete by Date
+        - Team member assigned to task
+    - Bug Tracker
+
+    - Ideas Page
+
+    - Photo Uploads
+
+    - Chat 
+
+
+Future:
+   - File Sharing
+
+   - Permissions
+     
+ WHAT DO TO: 
+  - Make new rails project
+  - Use Scaffolds to create Project scaffolds
+  - User Scaffolds to create a Task Scaffold   
+
+rails g scaffold Project title description:text start_date:datetime end_date:datetime on_time:boolean assigned_to:string
+rails g scaffold Task title overview:text goals:text created_by:text assigned_to:text create_date:datetime end_date:datetime blockers:string blocking:string
